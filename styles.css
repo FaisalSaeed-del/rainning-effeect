@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/temple-hephaestus-black-white-athens-greece-temple-hephaestus-black-white-athens-greece-one-main-127467832.jpg);
+    background-size: cover;
+}
+
+.rain{
+   height: 100vh;
+  background: url(images/rain.png);
+  animation: rain .3s linear infinite;
+}
+@keyframes rain{
+    from{0% 0% }
+    to{ 30% 100%}
+}
